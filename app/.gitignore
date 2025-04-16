@@ -1,1 +1,93 @@
+# Compiled code
+/build/
+/out/
+
+# Android Studio auto-generated files
+.gradle/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/caches/
+.idea/libraries/
+local.properties
+*.iml
+
+# Temporary files
+/tmp/
+*.tmp
+*.bak
+
+# APK files
+*.apk
+
+# Keystore files (VERY IMPORTANT!  DO NOT COMMIT THESE!)
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# Kotlin metadata
+*.kotlin_module
+
+# External Native Build
+/.externalNativeBuild
+
+# ndk
+/ndk/
+/cmake/
+
+# Profiler data
+*.trace
+
+# Instant Run
+*.ir.zip
+/instant-run/
+/dex-cache/
+
+# Generated files
+/generated/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+._*
+ehthumbs.db
+ehthumbs_ldb
+
+# Files for the ART/Dalvik VM
+*.dex
+/dalvik-cache/
+
+# Gradle build outputs
+/app/build/outputs/
+
+# Android NDK directory
+/ndk/
+
+# SDK content
+/platform-tools/
+/tools/
+/docs/
+/sources/
+
+# ProGuard generated files
+/mapping.txt
+
+# Crashlytics
+crashlytics.properties
+
+# Caches
+*.DS_Store
 /build
+.gradle
+/local.properties
+/.idea/caches
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navGraph.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/captures
+/shaders
