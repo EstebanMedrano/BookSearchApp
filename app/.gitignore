@@ -1,13 +1,20 @@
-# Compiled code
+# Compiled code (ignore content, but keep the directory for structure if needed)
 /build/
 /out/
 
 # Android Studio auto-generated files
 .gradle/
-.idea/workspace.xml
-.idea/tasks.xml
 .idea/caches/
 .idea/libraries/
+.idea/assetWizardSettings.xml
+.idea/navGraph.xml
+.idea/kotlinc.xml
+.idea/buildOutput/
+.idea/gradle.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/compiler.xml
+.idea/misc.xml
 local.properties
 *.iml
 
@@ -18,6 +25,7 @@ local.properties
 
 # APK files
 *.apk
+*.apks
 
 # Keystore files (VERY IMPORTANT!  DO NOT COMMIT THESE!)
 *.jks
@@ -31,8 +39,6 @@ local.properties
 
 # External Native Build
 /.externalNativeBuild
-
-# ndk
 /ndk/
 /cmake/
 
@@ -60,17 +66,18 @@ ehthumbs_ldb
 *.dex
 /dalvik-cache/
 
-# Gradle build outputs
+# Gradle build outputs (per module)
 /app/build/outputs/
+#/other_module/build/outputs/  <- Si tienes otros módulos
 
 # Android NDK directory
-/ndk/
+#/ndk/  <- Ya está arriba
 
-# SDK content
-/platform-tools/
-/tools/
-/docs/
-/sources/
+# SDK content (usually not committed)
+#/platform-tools/
+#/tools/
+#/docs/
+#/sources/
 
 # ProGuard generated files
 /mapping.txt
@@ -78,16 +85,15 @@ ehthumbs_ldb
 # Crashlytics
 crashlytics.properties
 
-# Caches
-*.DS_Store
-/build
-.gradle
-/local.properties
-/.idea/caches
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navGraph.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/captures
-/shaders
+# Caches (redundant with .idea/caches)
+#*.DS_Store
+#/build  <- Ya está arriba
+#.gradle  <- Ya está arriba
+#/local.properties  <- Ya está arriba
+#/.idea/caches  <- Ya está arriba
+#/.idea/modules.xml  <- Ya está arriba
+#/.idea/workspace.xml  <- Elimina esta línea si quieres rastrear la configuración de tu espacio de trabajo
+#/.idea/navGraph.xml  <- Ya está arriba
+#.DS_Store  <- Ya está arriba
+#/captures
+#/shaders
